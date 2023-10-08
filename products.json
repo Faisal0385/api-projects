@@ -1,0 +1,38 @@
+[
+    {
+        "name": "iphone",
+        "price": 900,
+        "feature": true,
+        "company": "apple"
+    },
+    {
+        "name": "iphone10",
+        "price": 1154,
+        "feature": true,
+        "company": "apple"
+    },
+    {
+        "name": "watch",
+        "price": 200,
+        "feature": true,
+        "company": "apple"
+    },
+    {
+        "name": "watch10",
+        "price": 304,
+        "feature": true,
+        "company": "apple"
+    },
+    {
+        "name": "dell gaming",
+        "price": 501,
+        "feature": true,
+        "company": "apple"
+    },
+    {
+        "name": "mi20",
+        "price": 700,
+        "feature": true,
+        "company": "mi"
+    }
+]
