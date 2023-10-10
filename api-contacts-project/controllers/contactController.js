@@ -17,7 +17,11 @@ const getContact = (req, res) => {
 //@access public
 const postContact = (req, res) => {
     console.log("Requested body:", req.body);
-    const {email, password} = req.body
+    const { email, password } = req.body
+    if (!email || !password) {
+        res.status(400)
+        throw new Error("All fields are mendatory!!")
+    }
     res.status(201).json({ status: "success", message: `Create contacts from controller json` })
 }
 
